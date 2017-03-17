@@ -2,8 +2,10 @@
 <manifest>
   <project name="SlimRoms/device_samsung_espressowifi" path="device/samsung/espressowifi" remote="github" revision="mm6.0" />
   <project name="SlimRoms/device_samsung_espresso3g" path="device/samsung/espresso3g" remote="github" revision="mm6.0" />
+  <project name="SlimRoms/device_samsung_tuna" path="device/samsung/tuna" remote="github" revision="mm6.0" />
 
   <project name="SlimRoms/kernel_samsung_espresso10" path="kernel/samsung/espresso10" remote="github" revision="mm6.0" />
+  <project name="SlimRoms/kernel_samsung_tuna" path="kernel/samsung/tuna" remote="github" revision="mm6.0" />
 
   <project name="SlimRoms/android_external_stlport" path="external/stlport" remote="github" revision="mm6.0" />
 </manifest>
