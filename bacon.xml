@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-
+  <remote  name="bitbucket"
+           fetch="https://bitbucket.org/" />
 
   <project name="SlimRoms/device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="mm6.0" />
   <project name="andi34/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="mm6.0" />
   <project name="SlimRoms/device_oppo_common" path="device/oppo/common" remote="github" revision="mm6.0" />
   <project name="SlimRoms/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="mm6.0" />
+
+
+<!-- Dragon Toolchain -->
+<project name="dragon-tc/dragontc-3.9" path="prebuilts/clang/linux-x86/host/3.9" remote="bitbucket" revision="master" />
+
+<remove-project name="platform/prebuilts/ndk" />
+<project name="dragon-tc/android_prebuilts_ndk" path="prebuilts/ndk" remote="github" revision="master" />
+
+<remove-project name="CyanogenMod/android_frameworks_rs" />
+<project name="dragon-tc/android_frameworks_rs" path="frameworks/rs" remote="github" revision="master" />
+
 
 </manifest>
